@@ -14,9 +14,9 @@ handler.before = m => {
 		user.role = global.rpg.role(user.level).name
 		m.reply(`
 Selamat, ${conn.getName(m.sender)} telah naik level!
-• 🧬Level Sebelumnya : ${before}
-• 🧬Level Baru : ${user.level}
-• 🧬Role Kamu : ${user.role}
+• 🌱Level Sebelumnya : ${before}
+• 🌱Level Baru : ${user.level}
+• 🌱Role Kamu : ${user.role}
 gunakan *.inventory* untuk mengecek
 	`.trim())
 	}
