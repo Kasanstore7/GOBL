@@ -12,7 +12,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
 ⏲️ *Published:* ${publishedTime}
 ⌚ *Duration:* ${durationH}
 👁️ *Views:* ${viewH}
-  `.trim(), author, thumbnail + '.png', url, '📺Go To Youtube!', null, null, [
+  `.trim(), author, thumbnail + '.png', url, '📺 Masuk Ke Youtube!', null, null, [
     ['Audio 🎧', `${usedPrefix}getaud ${url} yes`],
     ['Video 🎥', `${usedPrefix}ytv ${url} yes`],
     ['Youtube Search🔎', `${usedPrefix}yts ${url}`]
